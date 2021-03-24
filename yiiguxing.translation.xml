@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="stock" />
       <item value="Rop" />
       <item value="all Rop" />
     </histories>
@@ -15,7 +16,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1616050014035" />
+    <option name="lastTrimTime" value="1616584246693" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
