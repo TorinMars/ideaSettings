@@ -8,7 +8,7 @@
     <variable name="cnName" expression="" defaultValue="&quot;中文参数描述&quot;" alwaysStopAt="true" />
     <variable name="false" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
