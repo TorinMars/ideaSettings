@@ -1,0 +1,14 @@
+<templateSet group="Java">
+  <template name="cmg" value="@ApiOperation(value = &quot;$M_DES$&quot;, notes = &quot;$M_DES$&quot;)&#10;@$GET$Mapping(&quot;$M_MAPPING$&quot;)&#10;public ServiceResult&lt;$Object$&gt; $M_MAPPING$(@ApiParam(name = &quot;$param$&quot;, value=&quot;$cnName$&quot;, required = $false$) &#10;                                                     @RequestParam(required = $false$) String $param$,&#10;                                    @ApiIgnore AuthUser user){&#10;    return baseService.$M_MAPPING$($param$);&#10;}" description="controller method  generate" toReformat="false" toShortenFQNames="true">
+    <variable name="M_DES" expression="" defaultValue="&quot;接口&quot;" alwaysStopAt="true" />
+    <variable name="GET" expression="" defaultValue="&quot;Get&quot;" alwaysStopAt="true" />
+    <variable name="M_MAPPING" expression="" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
+    <variable name="Object" expression="" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;param&quot;" alwaysStopAt="true" />
+    <variable name="cnName" expression="" defaultValue="&quot;中文参数描述&quot;" alwaysStopAt="true" />
+    <variable name="false" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
